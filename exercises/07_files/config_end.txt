@@ -1,0 +1,528 @@
+version 15.0service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryptionhostname sw1interface Ethernet0/0interface Ethernet0/1 switchport trunk encapsulation dot1q switchport trunk allowed vlan 100 switchport mode trunk spanning-tree portfast edge trunkinterface Ethernet0/2interface Ethernet0/3 switchport trunk encapsulation dot1q switchport trunk allowed vlan 100 switchport mode trunk spanning-tree portfast edge trunkinterface Ethernet1/0interface Ethernet1/1interface Ethernet1/2interface Ethernet1/3interface Vlan100 ip address 10.0.100.1 255.255.255.0line con 0 exec-timeout 0 0 privilege level 15 logging synchronousline aux 0line vty 0 4 login transport input allendversion 15.0service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryptionhostname sw1interface Ethernet0/0interface Ethernet0/1 switchport trunk encapsulation dot1q switchport trunk allowed vlan 100 switchport mode trunk spanning-tree portfast edge trunkinterface Ethernet0/2interface Ethernet0/3 switchport trunk encapsulation dot1q switchport trunk allowed vlan 100 switchport mode trunk spanning-tree portfast edge trunkinterface Ethernet1/0interface Ethernet1/1interface Ethernet1/2interface Ethernet1/3interface Vlan100 ip address 10.0.100.1 255.255.255.0line con 0 exec-timeout 0 0 privilege level 15 logging synchronousline aux 0line vty 0 4 login transport input allendversion 15.0
+version 15.0
+service timestamps debug datetime msec
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+line vty 0 4
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+line vty 0 4
+ login
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+line vty 0 4
+ login
+ transport input all
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+hostname sw1
+interface Ethernet0/0
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet0/2
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 100
+ switchport mode trunk
+ spanning-tree portfast edge trunk
+interface Ethernet1/0
+interface Ethernet1/1
+interface Ethernet1/2
+interface Ethernet1/3
+interface Vlan100
+ ip address 10.0.100.1 255.255.255.0
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+line vty 0 4
+ login
+ transport input all
+end
